@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="URL Shortener", description="Простой сервис для укорачивания ссылок", version="0.1.0")
+app = FastAPI()
 
 @app.get("/")
 def root():
